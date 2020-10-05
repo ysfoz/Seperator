@@ -19,8 +19,11 @@ header h1 {
 
 main {
   font-size: 1.5rem;
-  border: 5px solid black;
+  border: 15px double #1d0524;
+  border-radius: 10px;
   height: auto;
+  width: 70vw;
+  margin: 0 auto;
 }
 
 main div input {
@@ -30,7 +33,7 @@ main div input {
   padding: 10px;
   text-align: center;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   margin: 20px auto;
   outline: none;
   font-size: large;
@@ -42,9 +45,9 @@ main div button {
   width: 12rem;
   height: 2rem;
   padding: 3px;
-  background: -webkit-gradient(linear, left top, right top, from(#e3e4da), to(#0f1100));
-  background: linear-gradient(to right, #e3e4da, #0f1100);
-  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#e3e4da), to(#220642));
+  background: linear-gradient(to right, #e3e4da, #220642);
+  border: 1px solid #300847;
   border-radius: 25px;
   font-size: 1rem;
   color: #181512;
@@ -53,7 +56,7 @@ main div button {
 }
 
 main .box {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #1d1003;
   padding: 10px 0;
   text-align: center;
 }

@@ -5,6 +5,7 @@ const result = document.querySelector("#result");
 const vowel = document.querySelector("#vowel");
 const consonant = document.querySelector("#consonant");
 const number = document.querySelector("#number");
+const inputSentence = document.querySelector("#inputSentence");
 const correktorElement = document.querySelector('#correktor');
 button.addEventListener("click", function () {
     correctMaker(input);
@@ -18,7 +19,7 @@ function correctMaker(item) {
     for (let j =(CorrectSentenceArr.length) - 1; j>= 0; j--){
     sentence += CorrectSentenceArr[j] + " "      
 }
-correktorElement.innerHTML = sentence
+correktorElement.innerHTML = `Here was word by word written backwards : "${sentence}"`
 }
 
 function reverseStr(str) {
@@ -58,9 +59,9 @@ function reverseStr(str) {
         alert('You can write to something ')
         
     }else{
-        result.innerHTML = `This is your Sentence but in reverse : ${reverseString}`}
+        result.innerHTML = `This is your Sentence but in reverse : "${reverseString}"`}
         
-        
+        inputSentence.innerHTML =`This is your sentence : "${input.value}" `
         vowel.innerHTML = `There are ${counterVowel} vowels in what you wrote.Here you can see : "${emptyVowelArr}" `
         
         consonant.innerHTML = `There are ${emptyConsonantArr.length} consonant and spelling Marks in what you wrote.Here you can see : "${emptyConsonantArr}" `
