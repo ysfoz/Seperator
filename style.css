@@ -1,0 +1,18 @@
+body {
+  background-color: azure;
+}
+
+header {
+  font-size: 3rem;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 5 sol;
+}
+/*# sourceMappingURL=style.css.map */
