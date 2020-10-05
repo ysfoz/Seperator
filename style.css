@@ -1,9 +1,16 @@
 body {
-  background-color: azure;
+  background: -webkit-gradient(linear, left top, right top, from(#3970af), to(#57ceaa));
+  background: linear-gradient(to right, #3970af, #57ceaa);
+  height: 100vh;
+}
+
+body h1 {
+  color: #220303;
+  opacity: 0.6;
 }
 
 header {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 header h1 {
@@ -12,7 +19,62 @@ header h1 {
 
 main {
   font-size: 1.5rem;
+  border: 5px solid black;
+  height: auto;
+}
+
+main div input {
+  display: block;
+  width: 60vw;
+  background-color: #ebf7f3;
+  padding: 10px;
   text-align: center;
-  border: 5 sol;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  outline: none;
+  font-size: large;
+}
+
+main div button {
+  display: block;
+  margin: 10px auto;
+  width: 12rem;
+  height: 2rem;
+  padding: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(#e3e4da), to(#0f1100));
+  background: linear-gradient(to right, #e3e4da, #0f1100);
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: #181512;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+
+main .box {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main #result {
+  color: #020202;
+}
+
+main #vowel {
+  color: rgba(2, 2, 2, 0.9);
+}
+
+main #consonant {
+  color: rgba(2, 2, 2, 0.7);
+}
+
+main #number {
+  color: rgba(2, 2, 2, 0.5);
+}
+
+main #correktor {
+  color: rgba(2, 2, 2, 0.3);
 }
 /*# sourceMappingURL=style.css.map */

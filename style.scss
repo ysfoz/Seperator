@@ -1,15 +1,68 @@
 
 body{
-    background-color: azure;
+    background:linear-gradient(to right,rgb(57, 112, 175),rgb(87,206,170));
+    height: 100vh;
+    h1{
+        color: rgb(34, 3, 3);
+        opacity: 0.6;
+    }
 }
 header{
-    font-size: 3rem;
+    font-size: 4rem;
     & h1{
         text-align: center;
     }
 }
 main{
+ 
     font-size: 1.5rem;
-    text-align: center;
-    border: 5 sol;
+    border: 5px solid black;
+    height: auto;
+    & div input{
+        display: block;
+        width: 60vw;
+        background-color: rgb(235, 247, 243);
+        padding: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        margin: 20px auto;
+        outline: none;
+        font-size: large;
+    }
+    & div button{
+        display: block;
+        margin: 10px auto;
+        width: 12rem;
+        height: 2rem;
+        padding: 3px;
+        background:linear-gradient(to right,rgb(227, 228, 218),rgb(15, 17, 0));
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        color: rgb(24, 21, 18);
+        text-transform: capitalize;
+        margin-top: 25px;  
+    }
+    & .box{
+        border-bottom: 1px solid black;
+        padding: 10px 0;
+        text-align: center;
+    }
+    & #result{
+        color:rgb(2, 2, 2);
+    }
+    & #vowel{
+        color:rgba(2, 2, 2,0.9);
+    }
+    & #consonant{
+        color:rgba(2, 2, 2,0.7);
+    }
+    & #number{
+        color:rgba(2, 2, 2,0.5);
+    }
+    & #correktor{
+        color:rgba(2, 2, 2,0.3);
+    }
+
 }
